@@ -1,0 +1,2551 @@
+{
+  "test_elements": [
+    {
+      "element_id": "welcome_screen_logo",
+      "xpath": "//XCUIElementTypeImage[@name='welcomeLogo']",
+      "accessibility_id": "welcomeLogo",
+      "class_name": "XCUIElementTypeImage",
+      "name": "welcomeLogo",
+      "screen": "WelcomeScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "get_started_button",
+      "xpath": "//XCUIElementTypeButton[@name='getStartedButton']",
+      "accessibility_id": "getStartedButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "getStartedButton",
+      "screen": "WelcomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "skip_intro_button",
+      "xpath": "//XCUIElementTypeButton[@name='skipIntroButton']",
+      "accessibility_id": "skipIntroButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "skipIntroButton",
+      "screen": "WelcomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "language_selector",
+      "xpath": "//XCUIElementTypePicker[@name='languageSelector']",
+      "accessibility_id": "languageSelector",
+      "class_name": "XCUIElementTypePicker",
+      "name": "languageSelector",
+      "screen": "WelcomeScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "login_email_field",
+      "xpath": "//XCUIElementTypeTextField[@name='emailTextField']",
+      "accessibility_id": "emailTextField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "emailTextField",
+      "screen": "LoginScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "login_password_field",
+      "xpath": "//XCUIElementTypeSecureTextField[@name='passwordSecureTextField']",
+      "accessibility_id": "passwordSecureTextField",
+      "class_name": "XCUIElementTypeSecureTextField",
+      "name": "passwordSecureTextField",
+      "screen": "LoginScreen",
+      "element_type": "securetextfield"
+    },
+    {
+      "element_id": "login_submit_button",
+      "xpath": "//XCUIElementTypeButton[@name='loginButton']",
+      "accessibility_id": "loginButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "loginButton",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "forgot_password_link",
+      "xpath": "//XCUIElementTypeButton[@name='forgotPasswordLink']",
+      "accessibility_id": "forgotPasswordLink",
+      "class_name": "XCUIElementTypeButton",
+      "name": "forgotPasswordLink",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "social_login_google",
+      "xpath": "//XCUIElementTypeButton[@name='googleLoginButton']",
+      "accessibility_id": "googleLoginButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "googleLoginButton",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "social_login_facebook",
+      "xpath": "//XCUIElementTypeButton[@name='facebookLoginButton']",
+      "accessibility_id": "facebookLoginButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "facebookLoginButton",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "social_login_apple",
+      "xpath": "//XCUIElementTypeButton[@name='appleLoginButton']",
+      "accessibility_id": "appleLoginButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "appleLoginButton",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "create_account_button",
+      "xpath": "//XCUIElementTypeButton[@name='createAccountButton']",
+      "accessibility_id": "createAccountButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "createAccountButton",
+      "screen": "LoginScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "remember_me_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='rememberMeSwitch']",
+      "accessibility_id": "rememberMeSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "rememberMeSwitch",
+      "screen": "LoginScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "signup_first_name_field",
+      "xpath": "//XCUIElementTypeTextField[@name='firstNameField']",
+      "accessibility_id": "firstNameField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "firstNameField",
+      "screen": "SignupScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "signup_last_name_field",
+      "xpath": "//XCUIElementTypeTextField[@name='lastNameField']",
+      "accessibility_id": "lastNameField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "lastNameField",
+      "screen": "SignupScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "signup_email_field",
+      "xpath": "//XCUIElementTypeTextField[@name='signupEmailField']",
+      "accessibility_id": "signupEmailField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "signupEmailField",
+      "screen": "SignupScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "signup_password_field",
+      "xpath": "//XCUIElementTypeSecureTextField[@name='signupPasswordField']",
+      "accessibility_id": "signupPasswordField",
+      "class_name": "XCUIElementTypeSecureTextField",
+      "name": "signupPasswordField",
+      "screen": "SignupScreen",
+      "element_type": "securetextfield"
+    },
+    {
+      "element_id": "signup_confirm_password_field",
+      "xpath": "//XCUIElementTypeSecureTextField[@name='confirmPasswordField']",
+      "accessibility_id": "confirmPasswordField",
+      "class_name": "XCUIElementTypeSecureTextField",
+      "name": "confirmPasswordField",
+      "screen": "SignupScreen",
+      "element_type": "securetextfield"
+    },
+    {
+      "element_id": "signup_phone_field",
+      "xpath": "//XCUIElementTypeTextField[@name='phoneNumberField']",
+      "accessibility_id": "phoneNumberField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "phoneNumberField",
+      "screen": "SignupScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "signup_date_of_birth_picker",
+      "xpath": "//XCUIElementTypeDatePicker[@name='birthDatePicker']",
+      "accessibility_id": "birthDatePicker",
+      "class_name": "XCUIElementTypeDatePicker",
+      "name": "birthDatePicker",
+      "screen": "SignupScreen",
+      "element_type": "datepicker"
+    },
+    {
+      "element_id": "signup_gender_segmented_control",
+      "xpath": "//XCUIElementTypeSegmentedControl[@name='genderSegmentedControl']",
+      "accessibility_id": "genderSegmentedControl",
+      "class_name": "XCUIElementTypeSegmentedControl",
+      "name": "genderSegmentedControl",
+      "screen": "SignupScreen",
+      "element_type": "segmentedcontrol"
+    },
+    {
+      "element_id": "terms_conditions_checkbox",
+      "xpath": "//XCUIElementTypeSwitch[@name='termsCheckbox']",
+      "accessibility_id": "termsCheckbox",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "termsCheckbox",
+      "screen": "SignupScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "newsletter_subscription_checkbox",
+      "xpath": "//XCUIElementTypeSwitch[@name='newsletterCheckbox']",
+      "accessibility_id": "newsletterCheckbox",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "newsletterCheckbox",
+      "screen": "SignupScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "signup_submit_button",
+      "xpath": "//XCUIElementTypeButton[@name='signupSubmitButton']",
+      "accessibility_id": "signupSubmitButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "signupSubmitButton",
+      "screen": "SignupScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "home_banner_carousel",
+      "xpath": "//XCUIElementTypeScrollView[@name='bannerCarousel']",
+      "accessibility_id": "bannerCarousel",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "bannerCarousel",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "home_search_bar",
+      "xpath": "//XCUIElementTypeSearchField[@name='searchBar']",
+      "accessibility_id": "searchBar",
+      "class_name": "XCUIElementTypeSearchField",
+      "name": "searchBar",
+      "screen": "HomeScreen",
+      "element_type": "searchfield"
+    },
+    {
+      "element_id": "search_voice_button",
+      "xpath": "//XCUIElementTypeButton[@name='voiceSearchButton']",
+      "accessibility_id": "voiceSearchButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "voiceSearchButton",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "search_camera_button",
+      "xpath": "//XCUIElementTypeButton[@name='cameraSearchButton']",
+      "accessibility_id": "cameraSearchButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "cameraSearchButton",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "categories_horizontal_scroll",
+      "xpath": "//XCUIElementTypeScrollView[@name='categoriesHorizontalScroll']",
+      "accessibility_id": "categoriesHorizontalScroll",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "categoriesHorizontalScroll",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "featured_products_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='featuredProductsSection']",
+      "accessibility_id": "featuredProductsSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "featuredProductsSection",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "deals_of_the_day_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='dealsOfTheDaySection']",
+      "accessibility_id": "dealsOfTheDaySection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "dealsOfTheDaySection",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "new_arrivals_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='newArrivalsSection']",
+      "accessibility_id": "newArrivalsSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "newArrivalsSection",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "recommended_for_you_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='recommendedSection']",
+      "accessibility_id": "recommendedSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "recommendedSection",
+      "screen": "HomeScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "notification_bell_icon",
+      "xpath": "//XCUIElementTypeButton[@name='notificationBellIcon']",
+      "accessibility_id": "notificationBellIcon",
+      "class_name": "XCUIElementTypeButton",
+      "name": "notificationBellIcon",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "wishlist_icon",
+      "xpath": "//XCUIElementTypeButton[@name='wishlistIcon']",
+      "accessibility_id": "wishlistIcon",
+      "class_name": "XCUIElementTypeButton",
+      "name": "wishlistIcon",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "location_selector",
+      "xpath": "//XCUIElementTypeButton[@name='locationSelector']",
+      "accessibility_id": "locationSelector",
+      "class_name": "XCUIElementTypeButton",
+      "name": "locationSelector",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "product_item_1",
+      "xpath": "//XCUIElementTypeCell[@name='productItem_1']",
+      "accessibility_id": "productItem_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "productItem_1",
+      "screen": "HomeScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "product_item_2",
+      "xpath": "//XCUIElementTypeCell[@name='productItem_2']",
+      "accessibility_id": "productItem_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "productItem_2",
+      "screen": "HomeScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "product_item_3",
+      "xpath": "//XCUIElementTypeCell[@name='productItem_3']",
+      "accessibility_id": "productItem_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "productItem_3",
+      "screen": "HomeScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "product_item_4",
+      "xpath": "//XCUIElementTypeCell[@name='productItem_4']",
+      "accessibility_id": "productItem_4",
+      "class_name": "XCUIElementTypeCell",
+      "name": "productItem_4",
+      "screen": "HomeScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "product_item_5",
+      "xpath": "//XCUIElementTypeCell[@name='productItem_5']",
+      "accessibility_id": "productItem_5",
+      "class_name": "XCUIElementTypeCell",
+      "name": "productItem_5",
+      "screen": "HomeScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "refresh_control",
+      "xpath": "//XCUIElementTypeOther[@name='refreshControl']",
+      "accessibility_id": "refreshControl",
+      "class_name": "XCUIElementTypeOther",
+      "name": "refreshControl",
+      "screen": "HomeScreen",
+      "element_type": "other"
+    },
+    {
+      "element_id": "view_all_categories_button",
+      "xpath": "//XCUIElementTypeButton[@name='viewAllCategoriesButton']",
+      "accessibility_id": "viewAllCategoriesButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "viewAllCategoriesButton",
+      "screen": "HomeScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "category_electronics_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryElectronicsCell']",
+      "accessibility_id": "categoryElectronicsCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryElectronicsCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_fashion_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryFashionCell']",
+      "accessibility_id": "categoryFashionCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryFashionCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_home_garden_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryHomeGardenCell']",
+      "accessibility_id": "categoryHomeGardenCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryHomeGardenCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_beauty_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryBeautyCell']",
+      "accessibility_id": "categoryBeautyCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryBeautyCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_sports_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categorySportsCell']",
+      "accessibility_id": "categorySportsCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categorySportsCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_books_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryBooksCell']",
+      "accessibility_id": "categoryBooksCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryBooksCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_toys_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryToysCell']",
+      "accessibility_id": "categoryToysCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryToysCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_automotive_cell",
+      "xpath": "//XCUIElementTypeCell[@name='categoryAutomotiveCell']",
+      "accessibility_id": "categoryAutomotiveCell",
+      "class_name": "XCUIElementTypeCell",
+      "name": "categoryAutomotiveCell",
+      "screen": "CategoriesScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "category_search_field",
+      "xpath": "//XCUIElementTypeSearchField[@name='categorySearchField']",
+      "accessibility_id": "categorySearchField",
+      "class_name": "XCUIElementTypeSearchField",
+      "name": "categorySearchField",
+      "screen": "CategoriesScreen",
+      "element_type": "searchfield"
+    },
+    {
+      "element_id": "product_main_image",
+      "xpath": "//XCUIElementTypeImage[@name='productMainImage']",
+      "accessibility_id": "productMainImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "productMainImage",
+      "screen": "ProductDetailScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "product_gallery_scroll",
+      "xpath": "//XCUIElementTypeScrollView[@name='productGalleryScroll']",
+      "accessibility_id": "productGalleryScroll",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "productGalleryScroll",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "product_title_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='productTitleLabel']",
+      "accessibility_id": "productTitleLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productTitleLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_brand_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='productBrandLabel']",
+      "accessibility_id": "productBrandLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productBrandLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_price_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='productPriceLabel']",
+      "accessibility_id": "productPriceLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productPriceLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_discount_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='productDiscountLabel']",
+      "accessibility_id": "productDiscountLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productDiscountLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_original_price_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='productOriginalPriceLabel']",
+      "accessibility_id": "productOriginalPriceLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productOriginalPriceLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_rating_stars",
+      "xpath": "//XCUIElementTypeImage[@name='productRatingStars']",
+      "accessibility_id": "productRatingStars",
+      "class_name": "XCUIElementTypeImage",
+      "name": "productRatingStars",
+      "screen": "ProductDetailScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "product_rating_count",
+      "xpath": "//XCUIElementTypeStaticText[@name='productRatingCount']",
+      "accessibility_id": "productRatingCount",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "productRatingCount",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "product_description_text",
+      "xpath": "//XCUIElementTypeTextView[@name='productDescriptionText']",
+      "accessibility_id": "productDescriptionText",
+      "class_name": "XCUIElementTypeTextView",
+      "name": "productDescriptionText",
+      "screen": "ProductDetailScreen",
+      "element_type": "textview"
+    },
+    {
+      "element_id": "product_specifications_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='productSpecificationsSection']",
+      "accessibility_id": "productSpecificationsSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "productSpecificationsSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "size_selector",
+      "xpath": "//XCUIElementTypeSegmentedControl[@name='sizeSelector']",
+      "accessibility_id": "sizeSelector",
+      "class_name": "XCUIElementTypeSegmentedControl",
+      "name": "sizeSelector",
+      "screen": "ProductDetailScreen",
+      "element_type": "segmentedcontrol"
+    },
+    {
+      "element_id": "color_selector",
+      "xpath": "//XCUIElementTypeScrollView[@name='colorSelector']",
+      "accessibility_id": "colorSelector",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "colorSelector",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "quantity_decrease_button",
+      "xpath": "//XCUIElementTypeButton[@name='quantityDecreaseButton']",
+      "accessibility_id": "quantityDecreaseButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "quantityDecreaseButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "quantity_increase_button",
+      "xpath": "//XCUIElementTypeButton[@name='quantityIncreaseButton']",
+      "accessibility_id": "quantityIncreaseButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "quantityIncreaseButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "quantity_display_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='quantityDisplayLabel']",
+      "accessibility_id": "quantityDisplayLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "quantityDisplayLabel",
+      "screen": "ProductDetailScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "add_to_cart_button",
+      "xpath": "//XCUIElementTypeButton[@name='addToCartButton']",
+      "accessibility_id": "addToCartButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "addToCartButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "buy_now_button",
+      "xpath": "//XCUIElementTypeButton[@name='buyNowButton']",
+      "accessibility_id": "buyNowButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "buyNowButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "add_to_wishlist_button",
+      "xpath": "//XCUIElementTypeButton[@name='addToWishlistButton']",
+      "accessibility_id": "addToWishlistButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "addToWishlistButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "compare_product_button",
+      "xpath": "//XCUIElementTypeButton[@name='compareProductButton']",
+      "accessibility_id": "compareProductButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "compareProductButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "share_product_button",
+      "xpath": "//XCUIElementTypeButton[@name='shareProductButton']",
+      "accessibility_id": "shareProductButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "shareProductButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "delivery_info_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='deliveryInfoSection']",
+      "accessibility_id": "deliveryInfoSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "deliveryInfoSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "return_policy_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='returnPolicySection']",
+      "accessibility_id": "returnPolicySection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "returnPolicySection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "seller_information_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='sellerInformationSection']",
+      "accessibility_id": "sellerInformationSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "sellerInformationSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "customer_reviews_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='customerReviewsSection']",
+      "accessibility_id": "customerReviewsSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "customerReviewsSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "write_review_button",
+      "xpath": "//XCUIElementTypeButton[@name='writeReviewButton']",
+      "accessibility_id": "writeReviewButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "writeReviewButton",
+      "screen": "ProductDetailScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "related_products_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='relatedProductsSection']",
+      "accessibility_id": "relatedProductsSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "relatedProductsSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "recently_viewed_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='recentlyViewedSection']",
+      "accessibility_id": "recentlyViewedSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "recentlyViewedSection",
+      "screen": "ProductDetailScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "cart_items_table",
+      "xpath": "//XCUIElementTypeTable[@name='cartItemsTable']",
+      "accessibility_id": "cartItemsTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "cartItemsTable",
+      "screen": "CartScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "cart_item_1",
+      "xpath": "//XCUIElementTypeCell[@name='cartItem_1']",
+      "accessibility_id": "cartItem_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "cartItem_1",
+      "screen": "CartScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "cart_item_2",
+      "xpath": "//XCUIElementTypeCell[@name='cartItem_2']",
+      "accessibility_id": "cartItem_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "cartItem_2",
+      "screen": "CartScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "cart_item_3",
+      "xpath": "//XCUIElementTypeCell[@name='cartItem_3']",
+      "accessibility_id": "cartItem_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "cartItem_3",
+      "screen": "CartScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "cart_item_image",
+      "xpath": "//XCUIElementTypeImage[@name='cartItemImage']",
+      "accessibility_id": "cartItemImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "cartItemImage",
+      "screen": "CartScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "cart_item_title",
+      "xpath": "//XCUIElementTypeStaticText[@name='cartItemTitle']",
+      "accessibility_id": "cartItemTitle",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "cartItemTitle",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "cart_item_price",
+      "xpath": "//XCUIElementTypeStaticText[@name='cartItemPrice']",
+      "accessibility_id": "cartItemPrice",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "cartItemPrice",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "cart_item_quantity_stepper",
+      "xpath": "//XCUIElementTypeStepper[@name='cartItemQuantityStepper']",
+      "accessibility_id": "cartItemQuantityStepper",
+      "class_name": "XCUIElementTypeStepper",
+      "name": "cartItemQuantityStepper",
+      "screen": "CartScreen",
+      "element_type": "stepper"
+    },
+    {
+      "element_id": "remove_cart_item_button",
+      "xpath": "//XCUIElementTypeButton[@name='removeCartItemButton']",
+      "accessibility_id": "removeCartItemButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "removeCartItemButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "move_to_wishlist_button",
+      "xpath": "//XCUIElementTypeButton[@name='moveToWishlistButton']",
+      "accessibility_id": "moveToWishlistButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "moveToWishlistButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "subtotal_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='subtotalLabel']",
+      "accessibility_id": "subtotalLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "subtotalLabel",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "tax_amount_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='taxAmountLabel']",
+      "accessibility_id": "taxAmountLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "taxAmountLabel",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "shipping_cost_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='shippingCostLabel']",
+      "accessibility_id": "shippingCostLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "shippingCostLabel",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "total_amount_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='totalAmountLabel']",
+      "accessibility_id": "totalAmountLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "totalAmountLabel",
+      "screen": "CartScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "coupon_code_field",
+      "xpath": "//XCUIElementTypeTextField[@name='couponCodeField']",
+      "accessibility_id": "couponCodeField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "couponCodeField",
+      "screen": "CartScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "apply_coupon_button",
+      "xpath": "//XCUIElementTypeButton[@name='applyCouponButton']",
+      "accessibility_id": "applyCouponButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "applyCouponButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "clear_cart_button",
+      "xpath": "//XCUIElementTypeButton[@name='clearCartButton']",
+      "accessibility_id": "clearCartButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "clearCartButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "continue_shopping_button",
+      "xpath": "//XCUIElementTypeButton[@name='continueShoppingButton']",
+      "accessibility_id": "continueShoppingButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "continueShoppingButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "proceed_to_checkout_button",
+      "xpath": "//XCUIElementTypeButton[@name='proceedToCheckoutButton']",
+      "accessibility_id": "proceedToCheckoutButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "proceedToCheckoutButton",
+      "screen": "CartScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "checkout_step_indicator",
+      "xpath": "//XCUIElementTypeProgressIndicator[@name='checkoutStepIndicator']",
+      "accessibility_id": "checkoutStepIndicator",
+      "class_name": "XCUIElementTypeProgressIndicator",
+      "name": "checkoutStepIndicator",
+      "screen": "CheckoutScreen",
+      "element_type": "progressindicator"
+    },
+    {
+      "element_id": "billing_address_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='billingAddressSection']",
+      "accessibility_id": "billingAddressSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "billingAddressSection",
+      "screen": "CheckoutScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "shipping_address_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='shippingAddressSection']",
+      "accessibility_id": "shippingAddressSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "shippingAddressSection",
+      "screen": "CheckoutScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "same_as_billing_checkbox",
+      "xpath": "//XCUIElementTypeSwitch[@name='sameAsBillingCheckbox']",
+      "accessibility_id": "sameAsBillingCheckbox",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "sameAsBillingCheckbox",
+      "screen": "CheckoutScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "first_name_field",
+      "xpath": "//XCUIElementTypeTextField[@name='firstNameField']",
+      "accessibility_id": "firstNameField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "firstNameField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "last_name_field",
+      "xpath": "//XCUIElementTypeTextField[@name='lastNameField']",
+      "accessibility_id": "lastNameField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "lastNameField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "address_line_1_field",
+      "xpath": "//XCUIElementTypeTextField[@name='addressLine1Field']",
+      "accessibility_id": "addressLine1Field",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "addressLine1Field",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "address_line_2_field",
+      "xpath": "//XCUIElementTypeTextField[@name='addressLine2Field']",
+      "accessibility_id": "addressLine2Field",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "addressLine2Field",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "city_field",
+      "xpath": "//XCUIElementTypeTextField[@name='cityField']",
+      "accessibility_id": "cityField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "cityField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "state_picker",
+      "xpath": "//XCUIElementTypePicker[@name='statePicker']",
+      "accessibility_id": "statePicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "statePicker",
+      "screen": "CheckoutScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "zip_code_field",
+      "xpath": "//XCUIElementTypeTextField[@name='zipCodeField']",
+      "accessibility_id": "zipCodeField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "zipCodeField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "country_picker",
+      "xpath": "//XCUIElementTypePicker[@name='countryPicker']",
+      "accessibility_id": "countryPicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "countryPicker",
+      "screen": "CheckoutScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "phone_number_field",
+      "xpath": "//XCUIElementTypeTextField[@name='phoneNumberField']",
+      "accessibility_id": "phoneNumberField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "phoneNumberField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "shipping_method_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='shippingMethodSection']",
+      "accessibility_id": "shippingMethodSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "shippingMethodSection",
+      "screen": "CheckoutScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "standard_shipping_option",
+      "xpath": "//XCUIElementTypeButton[@name='standardShippingOption']",
+      "accessibility_id": "standardShippingOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "standardShippingOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "express_shipping_option",
+      "xpath": "//XCUIElementTypeButton[@name='expressShippingOption']",
+      "accessibility_id": "expressShippingOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "expressShippingOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "overnight_shipping_option",
+      "xpath": "//XCUIElementTypeButton[@name='overnightShippingOption']",
+      "accessibility_id": "overnightShippingOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "overnightShippingOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "payment_method_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='paymentMethodSection']",
+      "accessibility_id": "paymentMethodSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "paymentMethodSection",
+      "screen": "CheckoutScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "credit_card_option",
+      "xpath": "//XCUIElementTypeButton[@name='creditCardOption']",
+      "accessibility_id": "creditCardOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "creditCardOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "paypal_option",
+      "xpath": "//XCUIElementTypeButton[@name='paypalOption']",
+      "accessibility_id": "paypalOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "paypalOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "apple_pay_option",
+      "xpath": "//XCUIElementTypeButton[@name='applePayOption']",
+      "accessibility_id": "applePayOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "applePayOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "google_pay_option",
+      "xpath": "//XCUIElementTypeButton[@name='googlePayOption']",
+      "accessibility_id": "googlePayOption",
+      "class_name": "XCUIElementTypeButton",
+      "name": "googlePayOption",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "card_number_field",
+      "xpath": "//XCUIElementTypeTextField[@name='cardNumberField']",
+      "accessibility_id": "cardNumberField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "cardNumberField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "cardholder_name_field",
+      "xpath": "//XCUIElementTypeTextField[@name='cardholderNameField']",
+      "accessibility_id": "cardholderNameField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "cardholderNameField",
+      "screen": "CheckoutScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "expiration_month_picker",
+      "xpath": "//XCUIElementTypePicker[@name='expirationMonthPicker']",
+      "accessibility_id": "expirationMonthPicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "expirationMonthPicker",
+      "screen": "CheckoutScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "expiration_year_picker",
+      "xpath": "//XCUIElementTypePicker[@name='expirationYearPicker']",
+      "accessibility_id": "expirationYearPicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "expirationYearPicker",
+      "screen": "CheckoutScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "security_code_field",
+      "xpath": "//XCUIElementTypeSecureTextField[@name='securityCodeField']",
+      "accessibility_id": "securityCodeField",
+      "class_name": "XCUIElementTypeSecureTextField",
+      "name": "securityCodeField",
+      "screen": "CheckoutScreen",
+      "element_type": "securetextfield"
+    },
+    {
+      "element_id": "save_payment_method_checkbox",
+      "xpath": "//XCUIElementTypeSwitch[@name='savePaymentMethodCheckbox']",
+      "accessibility_id": "savePaymentMethodCheckbox",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "savePaymentMethodCheckbox",
+      "screen": "CheckoutScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "order_summary_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='orderSummarySection']",
+      "accessibility_id": "orderSummarySection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "orderSummarySection",
+      "screen": "CheckoutScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "place_order_button",
+      "xpath": "//XCUIElementTypeButton[@name='placeOrderButton']",
+      "accessibility_id": "placeOrderButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "placeOrderButton",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "back_to_cart_button",
+      "xpath": "//XCUIElementTypeButton[@name='backToCartButton']",
+      "accessibility_id": "backToCartButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "backToCartButton",
+      "screen": "CheckoutScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "order_confirmation_image",
+      "xpath": "//XCUIElementTypeImage[@name='orderConfirmationImage']",
+      "accessibility_id": "orderConfirmationImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "orderConfirmationImage",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "order_number_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='orderNumberLabel']",
+      "accessibility_id": "orderNumberLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "orderNumberLabel",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "estimated_delivery_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='estimatedDeliveryLabel']",
+      "accessibility_id": "estimatedDeliveryLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "estimatedDeliveryLabel",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "track_order_button",
+      "xpath": "//XCUIElementTypeButton[@name='trackOrderButton']",
+      "accessibility_id": "trackOrderButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "trackOrderButton",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "view_order_details_button",
+      "xpath": "//XCUIElementTypeButton[@name='viewOrderDetailsButton']",
+      "accessibility_id": "viewOrderDetailsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "viewOrderDetailsButton",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "continue_shopping_button",
+      "xpath": "//XCUIElementTypeButton[@name='continueShoppingButton']",
+      "accessibility_id": "continueShoppingButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "continueShoppingButton",
+      "screen": "OrderConfirmationScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "search_results_table",
+      "xpath": "//XCUIElementTypeTable[@name='searchResultsTable']",
+      "accessibility_id": "searchResultsTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "searchResultsTable",
+      "screen": "SearchResultsScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "search_filter_button",
+      "xpath": "//XCUIElementTypeButton[@name='searchFilterButton']",
+      "accessibility_id": "searchFilterButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "searchFilterButton",
+      "screen": "SearchResultsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "search_sort_button",
+      "xpath": "//XCUIElementTypeButton[@name='searchSortButton']",
+      "accessibility_id": "searchSortButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "searchSortButton",
+      "screen": "SearchResultsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "search_results_count_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='searchResultsCountLabel']",
+      "accessibility_id": "searchResultsCountLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "searchResultsCountLabel",
+      "screen": "SearchResultsScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "search_suggestion_1",
+      "xpath": "//XCUIElementTypeCell[@name='searchSuggestion_1']",
+      "accessibility_id": "searchSuggestion_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "searchSuggestion_1",
+      "screen": "SearchResultsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "search_suggestion_2",
+      "xpath": "//XCUIElementTypeCell[@name='searchSuggestion_2']",
+      "accessibility_id": "searchSuggestion_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "searchSuggestion_2",
+      "screen": "SearchResultsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "search_suggestion_3",
+      "xpath": "//XCUIElementTypeCell[@name='searchSuggestion_3']",
+      "accessibility_id": "searchSuggestion_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "searchSuggestion_3",
+      "screen": "SearchResultsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "clear_search_button",
+      "xpath": "//XCUIElementTypeButton[@name='clearSearchButton']",
+      "accessibility_id": "clearSearchButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "clearSearchButton",
+      "screen": "SearchResultsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "no_results_image",
+      "xpath": "//XCUIElementTypeImage[@name='noResultsImage']",
+      "accessibility_id": "noResultsImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "noResultsImage",
+      "screen": "SearchResultsScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "no_results_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='noResultsMessage']",
+      "accessibility_id": "noResultsMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "noResultsMessage",
+      "screen": "SearchResultsScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "filter_price_range_slider",
+      "xpath": "//XCUIElementTypeSlider[@name='filterPriceRangeSlider']",
+      "accessibility_id": "filterPriceRangeSlider",
+      "class_name": "XCUIElementTypeSlider",
+      "name": "filterPriceRangeSlider",
+      "screen": "FilterScreen",
+      "element_type": "slider"
+    },
+    {
+      "element_id": "filter_brand_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='filterBrandSection']",
+      "accessibility_id": "filterBrandSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "filterBrandSection",
+      "screen": "FilterScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "filter_category_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='filterCategorySection']",
+      "accessibility_id": "filterCategorySection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "filterCategorySection",
+      "screen": "FilterScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "filter_rating_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='filterRatingSection']",
+      "accessibility_id": "filterRatingSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "filterRatingSection",
+      "screen": "FilterScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "filter_availability_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='filterAvailabilitySwitch']",
+      "accessibility_id": "filterAvailabilitySwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "filterAvailabilitySwitch",
+      "screen": "FilterScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "filter_discount_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='filterDiscountSwitch']",
+      "accessibility_id": "filterDiscountSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "filterDiscountSwitch",
+      "screen": "FilterScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "filter_apply_button",
+      "xpath": "//XCUIElementTypeButton[@name='filterApplyButton']",
+      "accessibility_id": "filterApplyButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "filterApplyButton",
+      "screen": "FilterScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "filter_reset_button",
+      "xpath": "//XCUIElementTypeButton[@name='filterResetButton']",
+      "accessibility_id": "filterResetButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "filterResetButton",
+      "screen": "FilterScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "filter_close_button",
+      "xpath": "//XCUIElementTypeButton[@name='filterCloseButton']",
+      "accessibility_id": "filterCloseButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "filterCloseButton",
+      "screen": "FilterScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "wishlist_items_table",
+      "xpath": "//XCUIElementTypeTable[@name='wishlistItemsTable']",
+      "accessibility_id": "wishlistItemsTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "wishlistItemsTable",
+      "screen": "WishlistScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "wishlist_item_1",
+      "xpath": "//XCUIElementTypeCell[@name='wishlistItem_1']",
+      "accessibility_id": "wishlistItem_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "wishlistItem_1",
+      "screen": "WishlistScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "wishlist_item_2",
+      "xpath": "//XCUIElementTypeCell[@name='wishlistItem_2']",
+      "accessibility_id": "wishlistItem_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "wishlistItem_2",
+      "screen": "WishlistScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "wishlist_item_3",
+      "xpath": "//XCUIElementTypeCell[@name='wishlistItem_3']",
+      "accessibility_id": "wishlistItem_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "wishlistItem_3",
+      "screen": "WishlistScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "remove_from_wishlist_button",
+      "xpath": "//XCUIElementTypeButton[@name='removeFromWishlistButton']",
+      "accessibility_id": "removeFromWishlistButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "removeFromWishlistButton",
+      "screen": "WishlistScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "move_to_cart_button",
+      "xpath": "//XCUIElementTypeButton[@name='moveToCartButton']",
+      "accessibility_id": "moveToCartButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "moveToCartButton",
+      "screen": "WishlistScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "share_wishlist_button",
+      "xpath": "//XCUIElementTypeButton[@name='shareWishlistButton']",
+      "accessibility_id": "shareWishlistButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "shareWishlistButton",
+      "screen": "WishlistScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "clear_wishlist_button",
+      "xpath": "//XCUIElementTypeButton[@name='clearWishlistButton']",
+      "accessibility_id": "clearWishlistButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "clearWishlistButton",
+      "screen": "WishlistScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "empty_wishlist_image",
+      "xpath": "//XCUIElementTypeImage[@name='emptyWishlistImage']",
+      "accessibility_id": "emptyWishlistImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "emptyWishlistImage",
+      "screen": "WishlistScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "empty_wishlist_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='emptyWishlistMessage']",
+      "accessibility_id": "emptyWishlistMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "emptyWishlistMessage",
+      "screen": "WishlistScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "profile_header_image",
+      "xpath": "//XCUIElementTypeImage[@name='profileHeaderImage']",
+      "accessibility_id": "profileHeaderImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "profileHeaderImage",
+      "screen": "ProfileScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "profile_avatar_image",
+      "xpath": "//XCUIElementTypeImage[@name='profileAvatarImage']",
+      "accessibility_id": "profileAvatarImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "profileAvatarImage",
+      "screen": "ProfileScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "profile_name_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='profileNameLabel']",
+      "accessibility_id": "profileNameLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "profileNameLabel",
+      "screen": "ProfileScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "profile_email_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='profileEmailLabel']",
+      "accessibility_id": "profileEmailLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "profileEmailLabel",
+      "screen": "ProfileScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "profile_member_since_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='profileMemberSinceLabel']",
+      "accessibility_id": "profileMemberSinceLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "profileMemberSinceLabel",
+      "screen": "ProfileScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "edit_profile_button",
+      "xpath": "//XCUIElementTypeButton[@name='editProfileButton']",
+      "accessibility_id": "editProfileButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "editProfileButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "my_orders_button",
+      "xpath": "//XCUIElementTypeButton[@name='myOrdersButton']",
+      "accessibility_id": "myOrdersButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "myOrdersButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "my_addresses_button",
+      "xpath": "//XCUIElementTypeButton[@name='myAddressesButton']",
+      "accessibility_id": "myAddressesButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "myAddressesButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "payment_methods_button",
+      "xpath": "//XCUIElementTypeButton[@name='paymentMethodsButton']",
+      "accessibility_id": "paymentMethodsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "paymentMethodsButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "customer_support_button",
+      "xpath": "//XCUIElementTypeButton[@name='customerSupportButton']",
+      "accessibility_id": "customerSupportButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "customerSupportButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "privacy_policy_button",
+      "xpath": "//XCUIElementTypeButton[@name='privacyPolicyButton']",
+      "accessibility_id": "privacyPolicyButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "privacyPolicyButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "terms_of_service_button",
+      "xpath": "//XCUIElementTypeButton[@name='termsOfServiceButton']",
+      "accessibility_id": "termsOfServiceButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "termsOfServiceButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "app_version_label",
+      "xpath": "//XCUIElementTypeStaticText[@name='appVersionLabel']",
+      "accessibility_id": "appVersionLabel",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "appVersionLabel",
+      "screen": "ProfileScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "logout_button",
+      "xpath": "//XCUIElementTypeButton[@name='logoutButton']",
+      "accessibility_id": "logoutButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "logoutButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "login_button",
+      "xpath": "//XCUIElementTypeButton[@name='loginButton']",
+      "accessibility_id": "loginButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "loginButton",
+      "screen": "ProfileScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "settings_table",
+      "xpath": "//XCUIElementTypeTable[@name='settingsTable']",
+      "accessibility_id": "settingsTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "settingsTable",
+      "screen": "SettingsScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "push_notifications_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='pushNotificationsSwitch']",
+      "accessibility_id": "pushNotificationsSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "pushNotificationsSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "email_notifications_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='emailNotificationsSwitch']",
+      "accessibility_id": "emailNotificationsSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "emailNotificationsSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "sms_notifications_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='smsNotificationsSwitch']",
+      "accessibility_id": "smsNotificationsSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "smsNotificationsSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "dark_mode_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='darkModeSwitch']",
+      "accessibility_id": "darkModeSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "darkModeSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "biometric_authentication_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='biometricAuthenticationSwitch']",
+      "accessibility_id": "biometricAuthenticationSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "biometricAuthenticationSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "auto_login_switch",
+      "xpath": "//XCUIElementTypeSwitch[@name='autoLoginSwitch']",
+      "accessibility_id": "autoLoginSwitch",
+      "class_name": "XCUIElementTypeSwitch",
+      "name": "autoLoginSwitch",
+      "screen": "SettingsScreen",
+      "element_type": "switch"
+    },
+    {
+      "element_id": "app_language_picker",
+      "xpath": "//XCUIElementTypePicker[@name='appLanguagePicker']",
+      "accessibility_id": "appLanguagePicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "appLanguagePicker",
+      "screen": "SettingsScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "currency_picker",
+      "xpath": "//XCUIElementTypePicker[@name='currencyPicker']",
+      "accessibility_id": "currencyPicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "currencyPicker",
+      "screen": "SettingsScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "save_settings_button",
+      "xpath": "//XCUIElementTypeButton[@name='saveSettingsButton']",
+      "accessibility_id": "saveSettingsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "saveSettingsButton",
+      "screen": "SettingsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "reset_settings_button",
+      "xpath": "//XCUIElementTypeButton[@name='resetSettingsButton']",
+      "accessibility_id": "resetSettingsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "resetSettingsButton",
+      "screen": "SettingsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "orders_table",
+      "xpath": "//XCUIElementTypeTable[@name='ordersTable']",
+      "accessibility_id": "ordersTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "ordersTable",
+      "screen": "OrderHistoryScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "order_item_1",
+      "xpath": "//XCUIElementTypeCell[@name='orderItem_1']",
+      "accessibility_id": "orderItem_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "orderItem_1",
+      "screen": "OrderHistoryScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "order_item_2",
+      "xpath": "//XCUIElementTypeCell[@name='orderItem_2']",
+      "accessibility_id": "orderItem_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "orderItem_2",
+      "screen": "OrderHistoryScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "order_item_3",
+      "xpath": "//XCUIElementTypeCell[@name='orderItem_3']",
+      "accessibility_id": "orderItem_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "orderItem_3",
+      "screen": "OrderHistoryScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "order_status_filter",
+      "xpath": "//XCUIElementTypeSegmentedControl[@name='orderStatusFilter']",
+      "accessibility_id": "orderStatusFilter",
+      "class_name": "XCUIElementTypeSegmentedControl",
+      "name": "orderStatusFilter",
+      "screen": "OrderHistoryScreen",
+      "element_type": "segmentedcontrol"
+    },
+    {
+      "element_id": "order_date_filter",
+      "xpath": "//XCUIElementTypePicker[@name='orderDateFilter']",
+      "accessibility_id": "orderDateFilter",
+      "class_name": "XCUIElementTypePicker",
+      "name": "orderDateFilter",
+      "screen": "OrderHistoryScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "reorder_button",
+      "xpath": "//XCUIElementTypeButton[@name='reorderButton']",
+      "accessibility_id": "reorderButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "reorderButton",
+      "screen": "OrderHistoryScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "track_shipment_button",
+      "xpath": "//XCUIElementTypeButton[@name='trackShipmentButton']",
+      "accessibility_id": "trackShipmentButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "trackShipmentButton",
+      "screen": "OrderHistoryScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "return_order_button",
+      "xpath": "//XCUIElementTypeButton[@name='returnOrderButton']",
+      "accessibility_id": "returnOrderButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "returnOrderButton",
+      "screen": "OrderHistoryScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "cancel_order_button",
+      "xpath": "//XCUIElementTypeButton[@name='cancelOrderButton']",
+      "accessibility_id": "cancelOrderButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "cancelOrderButton",
+      "screen": "OrderHistoryScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "view_invoice_button",
+      "xpath": "//XCUIElementTypeButton[@name='viewInvoiceButton']",
+      "accessibility_id": "viewInvoiceButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "viewInvoiceButton",
+      "screen": "OrderHistoryScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "notification_list_table",
+      "xpath": "//XCUIElementTypeTable[@name='notificationListTable']",
+      "accessibility_id": "notificationListTable",
+      "class_name": "XCUIElementTypeTable",
+      "name": "notificationListTable",
+      "screen": "NotificationsScreen",
+      "element_type": "table"
+    },
+    {
+      "element_id": "notification_item_1",
+      "xpath": "//XCUIElementTypeCell[@name='notificationItem_1']",
+      "accessibility_id": "notificationItem_1",
+      "class_name": "XCUIElementTypeCell",
+      "name": "notificationItem_1",
+      "screen": "NotificationsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "notification_item_2",
+      "xpath": "//XCUIElementTypeCell[@name='notificationItem_2']",
+      "accessibility_id": "notificationItem_2",
+      "class_name": "XCUIElementTypeCell",
+      "name": "notificationItem_2",
+      "screen": "NotificationsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "notification_item_3",
+      "xpath": "//XCUIElementTypeCell[@name='notificationItem_3']",
+      "accessibility_id": "notificationItem_3",
+      "class_name": "XCUIElementTypeCell",
+      "name": "notificationItem_3",
+      "screen": "NotificationsScreen",
+      "element_type": "cell"
+    },
+    {
+      "element_id": "mark_all_read_button",
+      "xpath": "//XCUIElementTypeButton[@name='markAllReadButton']",
+      "accessibility_id": "markAllReadButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "markAllReadButton",
+      "screen": "NotificationsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "clear_all_notifications_button",
+      "xpath": "//XCUIElementTypeButton[@name='clearAllNotificationsButton']",
+      "accessibility_id": "clearAllNotificationsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "clearAllNotificationsButton",
+      "screen": "NotificationsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "notification_settings_button",
+      "xpath": "//XCUIElementTypeButton[@name='notificationSettingsButton']",
+      "accessibility_id": "notificationSettingsButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "notificationSettingsButton",
+      "screen": "NotificationsScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "empty_notifications_image",
+      "xpath": "//XCUIElementTypeImage[@name='emptyNotificationsImage']",
+      "accessibility_id": "emptyNotificationsImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "emptyNotificationsImage",
+      "screen": "NotificationsScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "empty_notifications_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='emptyNotificationsMessage']",
+      "accessibility_id": "emptyNotificationsMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "emptyNotificationsMessage",
+      "screen": "NotificationsScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "support_chat_button",
+      "xpath": "//XCUIElementTypeButton[@name='supportChatButton']",
+      "accessibility_id": "supportChatButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "supportChatButton",
+      "screen": "CustomerSupportScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "support_email_button",
+      "xpath": "//XCUIElementTypeButton[@name='supportEmailButton']",
+      "accessibility_id": "supportEmailButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "supportEmailButton",
+      "screen": "CustomerSupportScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "support_phone_button",
+      "xpath": "//XCUIElementTypeButton[@name='supportPhoneButton']",
+      "accessibility_id": "supportPhoneButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "supportPhoneButton",
+      "screen": "CustomerSupportScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "faq_section",
+      "xpath": "//XCUIElementTypeScrollView[@name='faqSection']",
+      "accessibility_id": "faqSection",
+      "class_name": "XCUIElementTypeScrollView",
+      "name": "faqSection",
+      "screen": "CustomerSupportScreen",
+      "element_type": "scrollview"
+    },
+    {
+      "element_id": "help_search_bar",
+      "xpath": "//XCUIElementTypeSearchField[@name='helpSearchBar']",
+      "accessibility_id": "helpSearchBar",
+      "class_name": "XCUIElementTypeSearchField",
+      "name": "helpSearchBar",
+      "screen": "CustomerSupportScreen",
+      "element_type": "searchfield"
+    },
+    {
+      "element_id": "contact_form_button",
+      "xpath": "//XCUIElementTypeButton[@name='contactFormButton']",
+      "accessibility_id": "contactFormButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "contactFormButton",
+      "screen": "CustomerSupportScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tab_bar_home",
+      "xpath": "//XCUIElementTypeTabBar//XCUIElementTypeButton[@name='HomeTab']",
+      "accessibility_id": "HomeTab",
+      "class_name": "XCUIElementTypeButton",
+      "name": "HomeTab",
+      "screen": "TabBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tab_bar_categories",
+      "xpath": "//XCUIElementTypeTabBar//XCUIElementTypeButton[@name='CategoriesTab']",
+      "accessibility_id": "CategoriesTab",
+      "class_name": "XCUIElementTypeButton",
+      "name": "CategoriesTab",
+      "screen": "TabBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tab_bar_search",
+      "xpath": "//XCUIElementTypeTabBar//XCUIElementTypeButton[@name='SearchTab']",
+      "accessibility_id": "SearchTab",
+      "class_name": "XCUIElementTypeButton",
+      "name": "SearchTab",
+      "screen": "TabBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tab_bar_cart",
+      "xpath": "//XCUIElementTypeTabBar//XCUIElementTypeButton[@name='CartTab']",
+      "accessibility_id": "CartTab",
+      "class_name": "XCUIElementTypeButton",
+      "name": "CartTab",
+      "screen": "TabBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tab_bar_profile",
+      "xpath": "//XCUIElementTypeTabBar//XCUIElementTypeButton[@name='ProfileTab']",
+      "accessibility_id": "ProfileTab",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ProfileTab",
+      "screen": "TabBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "navigation_bar_back_button",
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton[@name='BackButton']",
+      "accessibility_id": "BackButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "BackButton",
+      "screen": "NavigationBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "navigation_bar_title",
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeStaticText[@name='NavigationTitle']",
+      "accessibility_id": "NavigationTitle",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "NavigationTitle",
+      "screen": "NavigationBar",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "navigation_bar_menu_button",
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton[@name='MenuButton']",
+      "accessibility_id": "MenuButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "MenuButton",
+      "screen": "NavigationBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "navigation_bar_cart_button",
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton[@name='CartNavButton']",
+      "accessibility_id": "CartNavButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "CartNavButton",
+      "screen": "NavigationBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "navigation_bar_search_button",
+      "xpath": "//XCUIElementTypeNavigationBar//XCUIElementTypeButton[@name='SearchNavButton']",
+      "accessibility_id": "SearchNavButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "SearchNavButton",
+      "screen": "NavigationBar",
+      "element_type": "button"
+    },
+    {
+      "element_id": "alert_confirmation_button",
+      "xpath": "//XCUIElementTypeAlert//XCUIElementTypeButton[@name='ConfirmButton']",
+      "accessibility_id": "ConfirmButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ConfirmButton",
+      "screen": "Alert",
+      "element_type": "button"
+    },
+    {
+      "element_id": "alert_cancel_button",
+      "xpath": "//XCUIElementTypeAlert//XCUIElementTypeButton[@name='CancelButton']",
+      "accessibility_id": "CancelButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "CancelButton",
+      "screen": "Alert",
+      "element_type": "button"
+    },
+    {
+      "element_id": "alert_message_text",
+      "xpath": "//XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='AlertMessage']",
+      "accessibility_id": "AlertMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "AlertMessage",
+      "screen": "Alert",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "alert_title_text",
+      "xpath": "//XCUIElementTypeAlert//XCUIElementTypeStaticText[@name='AlertTitle']",
+      "accessibility_id": "AlertTitle",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "AlertTitle",
+      "screen": "Alert",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "loading_spinner",
+      "xpath": "//XCUIElementTypeActivityIndicator[@name='loadingSpinner']",
+      "accessibility_id": "loadingSpinner",
+      "class_name": "XCUIElementTypeActivityIndicator",
+      "name": "loadingSpinner",
+      "screen": "LoadingScreen",
+      "element_type": "activityindicator"
+    },
+    {
+      "element_id": "loading_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='loadingMessage']",
+      "accessibility_id": "loadingMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "loadingMessage",
+      "screen": "LoadingScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "network_error_image",
+      "xpath": "//XCUIElementTypeImage[@name='networkErrorImage']",
+      "accessibility_id": "networkErrorImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "networkErrorImage",
+      "screen": "ErrorScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "network_error_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='networkErrorMessage']",
+      "accessibility_id": "networkErrorMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "networkErrorMessage",
+      "screen": "ErrorScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "retry_button",
+      "xpath": "//XCUIElementTypeButton[@name='retryButton']",
+      "accessibility_id": "retryButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "retryButton",
+      "screen": "ErrorScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "offline_banner",
+      "xpath": "//XCUIElementTypeOther[@name='offlineBanner']",
+      "accessibility_id": "offlineBanner",
+      "class_name": "XCUIElementTypeOther",
+      "name": "offlineBanner",
+      "screen": "ErrorScreen",
+      "element_type": "other"
+    },
+    {
+      "element_id": "tutorial_step_1_image",
+      "xpath": "//XCUIElementTypeImage[@name='tutorialStep1Image']",
+      "accessibility_id": "tutorialStep1Image",
+      "class_name": "XCUIElementTypeImage",
+      "name": "tutorialStep1Image",
+      "screen": "TutorialScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "tutorial_step_1_title",
+      "xpath": "//XCUIElementTypeStaticText[@name='tutorialStep1Title']",
+      "accessibility_id": "tutorialStep1Title",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "tutorialStep1Title",
+      "screen": "TutorialScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "tutorial_step_1_description",
+      "xpath": "//XCUIElementTypeStaticText[@name='tutorialStep1Description']",
+      "accessibility_id": "tutorialStep1Description",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "tutorialStep1Description",
+      "screen": "TutorialScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "tutorial_next_button",
+      "xpath": "//XCUIElementTypeButton[@name='tutorialNextButton']",
+      "accessibility_id": "tutorialNextButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "tutorialNextButton",
+      "screen": "TutorialScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tutorial_previous_button",
+      "xpath": "//XCUIElementTypeButton[@name='tutorialPreviousButton']",
+      "accessibility_id": "tutorialPreviousButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "tutorialPreviousButton",
+      "screen": "TutorialScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tutorial_skip_button",
+      "xpath": "//XCUIElementTypeButton[@name='tutorialSkipButton']",
+      "accessibility_id": "tutorialSkipButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "tutorialSkipButton",
+      "screen": "TutorialScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tutorial_done_button",
+      "xpath": "//XCUIElementTypeButton[@name='tutorialDoneButton']",
+      "accessibility_id": "tutorialDoneButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "tutorialDoneButton",
+      "screen": "TutorialScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "tutorial_page_indicator",
+      "xpath": "//XCUIElementTypePageIndicator[@name='tutorialPageIndicator']",
+      "accessibility_id": "tutorialPageIndicator",
+      "class_name": "XCUIElementTypePageIndicator",
+      "name": "tutorialPageIndicator",
+      "screen": "TutorialScreen",
+      "element_type": "pageindicator"
+    },
+    {
+      "element_id": "biometric_authentication_prompt",
+      "xpath": "//XCUIElementTypeAlert[@name='biometricAuthenticationPrompt']",
+      "accessibility_id": "biometricAuthenticationPrompt",
+      "class_name": "XCUIElementTypeAlert",
+      "name": "biometricAuthenticationPrompt",
+      "screen": "BiometricAuthScreen",
+      "element_type": "alert"
+    },
+    {
+      "element_id": "biometric_use_password_button",
+      "xpath": "//XCUIElementTypeButton[@name='biometricUsePasswordButton']",
+      "accessibility_id": "biometricUsePasswordButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "biometricUsePasswordButton",
+      "screen": "BiometricAuthScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "biometric_cancel_button",
+      "xpath": "//XCUIElementTypeButton[@name='biometricCancelButton']",
+      "accessibility_id": "biometricCancelButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "biometricCancelButton",
+      "screen": "BiometricAuthScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "location_permission_alert",
+      "xpath": "//XCUIElementTypeAlert[@name='locationPermissionAlert']",
+      "accessibility_id": "locationPermissionAlert",
+      "class_name": "XCUIElementTypeAlert",
+      "name": "locationPermissionAlert",
+      "screen": "PermissionScreen",
+      "element_type": "alert"
+    },
+    {
+      "element_id": "location_allow_button",
+      "xpath": "//XCUIElementTypeButton[@name='locationAllowButton']",
+      "accessibility_id": "locationAllowButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "locationAllowButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "location_deny_button",
+      "xpath": "//XCUIElementTypeButton[@name='locationDenyButton']",
+      "accessibility_id": "locationDenyButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "locationDenyButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "camera_permission_alert",
+      "xpath": "//XCUIElementTypeAlert[@name='cameraPermissionAlert']",
+      "accessibility_id": "cameraPermissionAlert",
+      "class_name": "XCUIElementTypeAlert",
+      "name": "cameraPermissionAlert",
+      "screen": "PermissionScreen",
+      "element_type": "alert"
+    },
+    {
+      "element_id": "camera_allow_button",
+      "xpath": "//XCUIElementTypeButton[@name='cameraAllowButton']",
+      "accessibility_id": "cameraAllowButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "cameraAllowButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "camera_deny_button",
+      "xpath": "//XCUIElementTypeButton[@name='cameraDenyButton']",
+      "accessibility_id": "cameraDenyButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "cameraDenyButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "notification_permission_alert",
+      "xpath": "//XCUIElementTypeAlert[@name='notificationPermissionAlert']",
+      "accessibility_id": "notificationPermissionAlert",
+      "class_name": "XCUIElementTypeAlert",
+      "name": "notificationPermissionAlert",
+      "screen": "PermissionScreen",
+      "element_type": "alert"
+    },
+    {
+      "element_id": "notification_allow_button",
+      "xpath": "//XCUIElementTypeButton[@name='notificationAllowButton']",
+      "accessibility_id": "notificationAllowButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "notificationAllowButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "notification_deny_button",
+      "xpath": "//XCUIElementTypeButton[@name='notificationDenyButton']",
+      "accessibility_id": "notificationDenyButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "notificationDenyButton",
+      "screen": "PermissionScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "splash_screen_logo",
+      "xpath": "//XCUIElementTypeImage[@name='splashScreenLogo']",
+      "accessibility_id": "splashScreenLogo",
+      "class_name": "XCUIElementTypeImage",
+      "name": "splashScreenLogo",
+      "screen": "SplashScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "splash_screen_tagline",
+      "xpath": "//XCUIElementTypeStaticText[@name='splashScreenTagline']",
+      "accessibility_id": "splashScreenTagline",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "splashScreenTagline",
+      "screen": "SplashScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "splash_screen_loading_indicator",
+      "xpath": "//XCUIElementTypeActivityIndicator[@name='splashScreenLoadingIndicator']",
+      "accessibility_id": "splashScreenLoadingIndicator",
+      "class_name": "XCUIElementTypeActivityIndicator",
+      "name": "splashScreenLoadingIndicator",
+      "screen": "SplashScreen",
+      "element_type": "activityindicator"
+    },
+    {
+      "element_id": "rating_prompt_star_1",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptStar1']",
+      "accessibility_id": "ratingPromptStar1",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptStar1",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_star_2",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptStar2']",
+      "accessibility_id": "ratingPromptStar2",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptStar2",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_star_3",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptStar3']",
+      "accessibility_id": "ratingPromptStar3",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptStar3",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_star_4",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptStar4']",
+      "accessibility_id": "ratingPromptStar4",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptStar4",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_star_5",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptStar5']",
+      "accessibility_id": "ratingPromptStar5",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptStar5",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_submit_button",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptSubmitButton']",
+      "accessibility_id": "ratingPromptSubmitButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptSubmitButton",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_later_button",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptLaterButton']",
+      "accessibility_id": "ratingPromptLaterButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptLaterButton",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "rating_prompt_never_button",
+      "xpath": "//XCUIElementTypeButton[@name='ratingPromptNeverButton']",
+      "accessibility_id": "ratingPromptNeverButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "ratingPromptNeverButton",
+      "screen": "RatingPromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "app_update_prompt_title",
+      "xpath": "//XCUIElementTypeStaticText[@name='appUpdatePromptTitle']",
+      "accessibility_id": "appUpdatePromptTitle",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "appUpdatePromptTitle",
+      "screen": "AppUpdatePromptScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "app_update_prompt_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='appUpdatePromptMessage']",
+      "accessibility_id": "appUpdatePromptMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "appUpdatePromptMessage",
+      "screen": "AppUpdatePromptScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "app_update_now_button",
+      "xpath": "//XCUIElementTypeButton[@name='appUpdateNowButton']",
+      "accessibility_id": "appUpdateNowButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "appUpdateNowButton",
+      "screen": "AppUpdatePromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "app_update_later_button",
+      "xpath": "//XCUIElementTypeButton[@name='appUpdateLaterButton']",
+      "accessibility_id": "appUpdateLaterButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "appUpdateLaterButton",
+      "screen": "AppUpdatePromptScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "maintenance_mode_image",
+      "xpath": "//XCUIElementTypeImage[@name='maintenanceModeImage']",
+      "accessibility_id": "maintenanceModeImage",
+      "class_name": "XCUIElementTypeImage",
+      "name": "maintenanceModeImage",
+      "screen": "MaintenanceScreen",
+      "element_type": "image"
+    },
+    {
+      "element_id": "maintenance_mode_title",
+      "xpath": "//XCUIElementTypeStaticText[@name='maintenanceModeTitle']",
+      "accessibility_id": "maintenanceModeTitle",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "maintenanceModeTitle",
+      "screen": "MaintenanceScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "maintenance_mode_message",
+      "xpath": "//XCUIElementTypeStaticText[@name='maintenanceModeMessage']",
+      "accessibility_id": "maintenanceModeMessage",
+      "class_name": "XCUIElementTypeStaticText",
+      "name": "maintenanceModeMessage",
+      "screen": "MaintenanceScreen",
+      "element_type": "statictext"
+    },
+    {
+      "element_id": "maintenance_mode_retry_button",
+      "xpath": "//XCUIElementTypeButton[@name='maintenanceModeRetryButton']",
+      "accessibility_id": "maintenanceModeRetryButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "maintenanceModeRetryButton",
+      "screen": "MaintenanceScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "feedback_form_subject_field",
+      "xpath": "//XCUIElementTypeTextField[@name='feedbackFormSubjectField']",
+      "accessibility_id": "feedbackFormSubjectField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "feedbackFormSubjectField",
+      "screen": "FeedbackScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "feedback_form_message_field",
+      "xpath": "//XCUIElementTypeTextView[@name='feedbackFormMessageField']",
+      "accessibility_id": "feedbackFormMessageField",
+      "class_name": "XCUIElementTypeTextView",
+      "name": "feedbackFormMessageField",
+      "screen": "FeedbackScreen",
+      "element_type": "textview"
+    },
+    {
+      "element_id": "feedback_form_email_field",
+      "xpath": "//XCUIElementTypeTextField[@name='feedbackFormEmailField']",
+      "accessibility_id": "feedbackFormEmailField",
+      "class_name": "XCUIElementTypeTextField",
+      "name": "feedbackFormEmailField",
+      "screen": "FeedbackScreen",
+      "element_type": "textfield"
+    },
+    {
+      "element_id": "feedback_form_category_picker",
+      "xpath": "//XCUIElementTypePicker[@name='feedbackFormCategoryPicker']",
+      "accessibility_id": "feedbackFormCategoryPicker",
+      "class_name": "XCUIElementTypePicker",
+      "name": "feedbackFormCategoryPicker",
+      "screen": "FeedbackScreen",
+      "element_type": "picker"
+    },
+    {
+      "element_id": "feedback_form_attach_screenshot_button",
+      "xpath": "//XCUIElementTypeButton[@name='feedbackFormAttachScreenshotButton']",
+      "accessibility_id": "feedbackFormAttachScreenshotButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "feedbackFormAttachScreenshotButton",
+      "screen": "FeedbackScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "feedback_form_submit_button",
+      "xpath": "//XCUIElementTypeButton[@name='feedbackFormSubmitButton']",
+      "accessibility_id": "feedbackFormSubmitButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "feedbackFormSubmitButton",
+      "screen": "FeedbackScreen",
+      "element_type": "button"
+    },
+    {
+      "element_id": "feedback_form_cancel_button",
+      "xpath": "//XCUIElementTypeButton[@name='feedbackFormCancelButton']",
+      "accessibility_id": "feedbackFormCancelButton",
+      "class_name": "XCUIElementTypeButton",
+      "name": "feedbackFormCancelButton",
+      "screen": "FeedbackScreen",
+      "element_type": "button"
+    }
+  ]
+}

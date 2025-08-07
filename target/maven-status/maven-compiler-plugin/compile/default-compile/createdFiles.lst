@@ -1,0 +1,13 @@
+com\selfhealing\algorithm\EnhancedStringMatcher.class
+com\selfhealing\model\TestElement.class
+com\selfhealing\service\ElementComparisonService.class
+com\selfhealing\model\FlexibleTestElement.class
+com\selfhealing\model\ElementsData.class
+com\selfhealing\algorithm\LevenshteinDistance.class
+com\selfhealing\service\SelfHealingService.class
+com\selfhealing\algorithm\LongestCommonSubsequence.class
+com\selfhealing\SelfHealingLscIosApplication.class
+com\selfhealing\algorithm\EnhancedStringMatcher$MatchResult.class
+com\selfhealing\controller\TestController.class
+com\selfhealing\model\SimilarityResult.class
+com\selfhealing\controller\SelfHealingController.class
