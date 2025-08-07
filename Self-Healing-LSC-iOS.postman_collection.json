@@ -1,0 +1,1038 @@
+{
+	"info": {
+		"_postman_id": "bd7499ad-ec9f-4543-a691-4e7b289c6f22",
+		"name": "Self-Healing Enhanced Tests",
+		"description": "Comprehensive test collection for enhanced self-healing algorithm with near-miss detection and independent field testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36350308"
+	},
+	"item": [
+		{
+			"name": "1. Health & Setup",
+			"item": [
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/health",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"health"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/stats",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"stats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Configuration",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/config",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"config"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2. Debug Tests (NEW)",
+			"item": [
+				{
+					"name": "String Similarity Debug - Near Miss",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"str1\": \"login_submit_butto\",\n  \"str2\": \"login_submit_button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/debug/string-similarity",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"debug",
+								"string-similarity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "String Similarity Debug - Perfect Match",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"str1\": \"login_submit_button\",\n  \"str2\": \"login_submit_button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/debug/string-similarity",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"debug",
+								"string-similarity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "String Similarity Debug - Accessibility ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"str1\": \"loginButto\",\n  \"str2\": \"loginButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/debug/string-similarity",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"debug",
+								"string-similarity"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "3. Independent Field Tests (NEW)",
+			"item": [
+				{
+					"name": "Find by Element ID - Exact Match",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Element ID - Near Miss (Missing 'n')",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Element ID - Near Miss (Extra 'n')",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_buttonn\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Accessibility ID - Exact",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accessibility_id\": \"loginButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-accessibility-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-accessibility-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Accessibility ID - Near Miss",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accessibility_id\": \"loginButto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-accessibility-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-accessibility-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by XPath - Exact",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"xpath\": \"//XCUIElementTypeButton[@name='loginButton']\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-xpath",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-xpath"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Class Name - Multiple Results",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"class_name\": \"XCUIElementTypeButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-class-name",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-class-name"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find by Name - Exact",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"loginButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-name",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-name"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "4. Enhanced General Search",
+			"item": [
+				{
+					"name": "General Find - Exact Match",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_button\",\n  \"accessibility_id\": \"loginButton\",\n  \"name\": \"loginButton\",\n  \"xpath\": \"//XCUIElementTypeButton[@name='loginButton']\",\n  \"class_name\": \"XCUIElementTypeButton\",\n  \"screen\": \"LoginScreen\",\n  \"element_type\": \"button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "General Find - Near Miss (Fixed!)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\",\n  \"accessibility_id\": \"loginButto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "General Find - Single Field Only",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "General Find - Partial Info (Screen + Type)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"screen\": \"LoginScreen\",\n  \"element_type\": \"button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "5. Suggestions & Validation",
+			"item": [
+				{
+					"name": "Get Suggestions - Near Miss",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/suggestions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"suggestions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Suggestions - Multiple Fields",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"unknown_element\",\n  \"accessibility_id\": \"loginButton\",\n  \"class_name\": \"XCUIElementTypeButton\",\n  \"screen\": \"LoginScreen\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/suggestions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"suggestions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate - Single Field (NEW)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/validate",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate - Accessibility ID Only",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accessibility_id\": \"loginButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/validate",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate - XPath Only",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"xpath\": \"//XCUIElementTypeButton[@name='testButton']\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/validate",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate - Invalid (Empty)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/validate",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "6. Near-Miss Test Suite (CRITICAL)",
+			"item": [
+				{
+					"name": "Near-Miss: Missing Last Char",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_butto\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Near-Miss: Missing Middle Char",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_sbmit_button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Near-Miss: Typo in Middle",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"login_submit_byton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Near-Miss: Accessibility ID Short",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accessibility_id\": \"loginBtn\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-accessibility-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-accessibility-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Near-Miss: Case Difference",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"Login_Submit_Button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "7. Performance & Edge Cases",
+			"item": [
+				{
+					"name": "Performance: Class Name (Many Results)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"class_name\": \"XCUIElementTypeButton\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-class-name",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-class-name"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edge Case: Very Short String",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"btn\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edge Case: Empty String",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edge Case: Non-existent Element",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"completely_non_existent_element_12345\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/find-by-element-id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"find-by-element-id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "8. Element Management",
+			"item": [
+				{
+					"name": "Update Element",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"element_id\": \"updated_login_button\",\n  \"accessibility_id\": \"updatedLoginButton\",\n  \"name\": \"updatedLoginButton\",\n  \"xpath\": \"//XCUIElementTypeButton[@name='updatedLoginButton']\",\n  \"class_name\": \"XCUIElementTypeButton\",\n  \"screen\": \"LoginScreen\",\n  \"element_type\": \"button\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/self-healing/update/login_submit_button",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"self-healing",
+								"update",
+								"login_submit_button"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
